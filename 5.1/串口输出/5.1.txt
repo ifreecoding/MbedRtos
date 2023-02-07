@@ -1,0 +1,94 @@
+
+Task Test1 is created! Tick is: 4
+Task Test2 is created! Tick is: 4
+Task Test3 is created! Tick is: 4
+Task SrlPrt is created! Tick is: 4
+Task LcdPrt is created! Tick is: 4
+Task Root is deleted! Tick is: 4
+Task NULL ---> Task Test1! Tick is: 4
+Task1 is running! Tick is: 4
+Task Test1 ---> Task Test3! Tick is: 204
+Task Test3 ---> Task Test1! Tick is: 204
+Task Test1 ---> Task Test3! Tick is: 504
+Task3 is running! Tick is: 504
+Task Test3 ---> Task Test1! Tick is: 604
+Task Test1 ---> Task Idle! Tick is: 604
+Task Idle ---> Task Test1! Tick is: 704
+Task1 is running! Tick is: 704
+Task Test1 ---> Task Test3! Tick is: 904
+Task Test3 ---> Task Test1! Tick is: 904
+Task Test1 ---> Task Test2! Tick is: 1004
+Task2 is running! Tick is: 1004
+Task Test2 ---> Task Test1! Tick is: 1104
+Task Test1 ---> Task Test2! Tick is: 1204
+Task2 is running! Tick is: 1204
+Task Test2 ---> Task Test1! Tick is: 1304
+Task Test1 ---> Task Test2! Tick is: 1404
+Task2 is running! Tick is: 1404
+Task Test2 ---> Task Test1! Tick is: 1504
+Task Test1 ---> Task Test3! Tick is: 1504
+Task3 is running! Tick is: 1504
+Task Test3 ---> Task Test2! Tick is: 1604
+Task2 is running! Tick is: 1604
+Task Test2 ---> Task Test1! Tick is: 1704
+Task Test1 ---> Task Idle! Tick is: 1704
+Task Idle ---> Task Test2! Tick is: 1804
+Task2 is running! Tick is: 1804
+Task Test2 ---> Task Test3! Tick is: 1904
+Task3 is running! Tick is: 1904
+Task Test3 ---> Task Test2! Tick is: 2004
+Task Test2 ---> Task Test1! Tick is: 2004
+Task1 is running! Tick is: 2004
+Task Test1 ---> Task Test2! Tick is: 2104
+Task2 is running! Tick is: 2104
+Task Test2 ---> Task Test1! Tick is: 2204
+Task Test1 ---> Task Test3! Tick is: 2304
+Task Test3 ---> Task Test2! Tick is: 2304
+Task2 is running! Tick is: 2304
+Task Test2 ---> Task Test1! Tick is: 2404
+Task Test1 ---> Task Test2! Tick is: 2504
+Task2 is running! Tick is: 2504
+Task Test2 ---> Task Test1! Tick is: 2604
+Task Test1 ---> Task Test2! Tick is: 2704
+Task2 is running! Tick is: 2704
+Task Test2 ---> Task Test1! Tick is: 2804
+Task Idle ---> Task Test2! Tick is: 3305
+Task2 is running! Tick is: 3305
+Task Test2 ---> Task Test3! Tick is: 3405
+Task3 is running! Tick is: 3405
+Task Test3 ---> Task Test2! Tick is: 3505
+Task Test2 ---> Task Test1! Tick is: 3505
+Task1 is running! Tick is: 3505
+Task Test1 ---> Task Test2! Tick is: 3605
+Task2 is running! Tick is: 3605
+Task Test2 ---> Task Test1! Tick is: 3705
+Task Test1 ---> Task Test3! Tick is: 3805
+Task Test3 ---> Task Test2! Tick is: 3805
+Task2 is running! Tick is: 3805
+Task Test2 ---> Task Test1! Tick is: 3905
+Task Test1 ---> Task Test2! Tick is: 4005
+Task2 is running! Tick is: 4005
+Task Test2 ---> Task Test1! Tick is: 4105
+Task Test1 ---> Task Test2! Tick is: 4205
+Task2 is running! Tick is: 4205
+Task Test2 ---> Task Test1! Tick is: 4305
+Task Idle ---> Task Test2! Tick is: 4806
+Task2 is running! Tick is: 4806
+Task Test2 ---> Task Test3! Tick is: 4906
+Task3 is running! Tick is: 4906
+Task Test3 ---> Task Test2! Tick is: 5006
+Task Test2 ---> Task Test1! Tick is: 5006
+Task1 is running! Tick is: 5006
+Task Test1 ---> Task Test2! Tick is: 5106
+Task2 is running! Tick is: 5106
+Task Test2 ---> Task Test1! Tick is: 5206
+Task Test1 ---> Task Test3! Tick is: 5306
+Task Test3 ---> Task Test2! Tick is: 5306
+Task2 is running! Tick is: 5306
+Task Test2 ---> Task Test1! Tick is: 5406
+Task Test1 ---> Task Test2! Tick is: 5506
+Task2 is running! Tick is: 5506
+Task Test2 ---> Task Test1! Tick is: 5606
+Task Test1 ---> Task Test2! Tick is: 5706
+Task2 is running! Tick is: 5706
+Task Test2 ---> Task Test1! Tick is: 5806

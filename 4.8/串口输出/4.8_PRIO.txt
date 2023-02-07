@@ -1,0 +1,194 @@
+
+Task Test1 is created! Tick is: 3
+Task Test2 is created! Tick is: 3
+Task Test3 is created! Tick is: 4
+Task Test4 is created! Tick is: 4
+Task SrlPrt is created! Tick is: 4
+Task LcdPrt is created! Tick is: 4
+Task Root is deleted! Tick is: 4
+Task NULL ---> Task Test4! Tick is: 4
+Task Test4 ---> Task Test3! Tick is: 4
+Task3 take gpstrSemMute 1! Tick is: 4
+Task Test3 ---> Task Test2! Tick is: 54
+Task Test2 ---> Task Test1! Tick is: 54
+Task1 is running ! Tick is: 54
+Task Test1 ---> Task Test3! Tick is: 204
+Task3 give gpstrSemMute 1! Tick is: 204
+Task Test3 ---> Task Test2! Tick is: 204
+Task2 take gpstrSemMute 1! Tick is: 204
+Task Test2 ---> Task Test1! Tick is: 254
+Task Test1 ---> Task Idle! Tick is: 254
+Task Idle ---> Task Test2! Tick is: 454
+Task2 give gpstrSemMute 1! Tick is: 454
+Task Test2 ---> Task Test3! Tick is: 454
+Task3 take gpstrSemMute 2! Tick is: 454
+Task Test3 ---> Task Test2! Tick is: 504
+Task Test2 ---> Task Test1! Tick is: 504
+Task1 give gpstrSemSync 1! Tick is: 504
+Task Test1 ---> Task Test4! Tick is: 504
+Task4 take gpstrSemSync 1! Tick is: 504
+Task Test4 ---> Task Test1! Tick is: 554
+Task1 is running ! Tick is: 554
+Task Test1 ---> Task Test3! Tick is: 654
+Task3 give gpstrSemMute 2! Tick is: 654
+Task Test3 ---> Task Test2! Tick is: 654
+Task2 take gpstrSemMute 2! Tick is: 654
+Task Test2 ---> Task Test1! Tick is: 704
+Task Test1 ---> Task Idle! Tick is: 754
+Task Idle ---> Task Test2! Tick is: 904
+Task2 give gpstrSemMute 2! Tick is: 904
+Task Test2 ---> Task Test3! Tick is: 904
+Task3 take gpstrSemMute 3! Tick is: 904
+Task Test3 ---> Task Test2! Tick is: 954
+Task Test2 ---> Task Test1! Tick is: 954
+Task1 give gpstrSemSync 2! Tick is: 954
+Task Test1 ---> Task Test4! Tick is: 954
+Task4 take gpstrSemSync 2! Tick is: 954
+Task Test4 ---> Task Test1! Tick is: 1004
+Task1 is running ! Tick is: 1004
+Task Test1 ---> Task Test3! Tick is: 1104
+Task3 give gpstrSemMute 3! Tick is: 1104
+Task Test3 ---> Task Test2! Tick is: 1104
+Task2 take gpstrSemMute 3! Tick is: 1104
+Task Test2 ---> Task Test1! Tick is: 1154
+Task Test1 ---> Task Idle! Tick is: 1204
+Task Idle ---> Task Test2! Tick is: 1354
+Task2 give gpstrSemMute 3! Tick is: 1354
+Task Test2 ---> Task Idle! Tick is: 1354
+Task Idle ---> Task Test1! Tick is: 1404
+Task1 give gpstrSemSync 3! Tick is: 1404
+Task Test1 ---> Task Test4! Tick is: 1404
+Task4 take gpstrSemSync 3! Tick is: 1404
+Task Test4 ---> Task Test1! Tick is: 1454
+Task1 is running ! Tick is: 1454
+Task Test1 ---> Task Idle! Tick is: 1604
+Task Idle ---> Task Test1! Tick is: 1804
+Task1 give gpstrSemSync 4! Tick is: 1804
+Task Test1 ---> Task Test4! Tick is: 1804
+Task4 take gpstrSemSync 4! Tick is: 1804
+Task Test4 ---> Task Test1! Tick is: 1854
+Task1 is running ! Tick is: 1854
+Task Test1 ---> Task Idle! Tick is: 2004
+Task Idle ---> Task Test1! Tick is: 2204
+Task1 give gpstrSemSync 5! Tick is: 2204
+Task Test1 ---> Task Test4! Tick is: 2204
+Task4 take gpstrSemSync 5! Tick is: 2204
+Task Test4 ---> Task Test1! Tick is: 2254
+Task1 is running ! Tick is: 2254
+Task Test1 ---> Task Idle! Tick is: 2404
+Task Idle ---> Task Test1! Tick is: 2604
+Task1 give gpstrSemSync 6! Tick is: 2604
+Task Test1 ---> Task Test4! Tick is: 2604
+Task4 take gpstrSemSync 6! Tick is: 2604
+Task Test4 ---> Task Test1! Tick is: 2654
+Task1 is running ! Tick is: 2654
+Task Test1 ---> Task Idle! Tick is: 2804
+Task Idle ---> Task Test1! Tick is: 3004
+Task1 give gpstrSemSync 7! Tick is: 3004
+Task Test1 ---> Task Test4! Tick is: 3004
+Task4 take gpstrSemSync 7! Tick is: 3004
+Task Test4 ---> Task Test1! Tick is: 3054
+Task1 is running ! Tick is: 3054
+Task Test1 ---> Task Idle! Tick is: 3204
+Task Idle ---> Task Test1! Tick is: 3404
+Task1 give gpstrSemSync 8! Tick is: 3404
+Task Test1 ---> Task Test4! Tick is: 3404
+Task4 take gpstrSemSync 8! Tick is: 3404
+Task Test4 ---> Task Test1! Tick is: 3454
+Task1 is running ! Tick is: 3454
+Task Test1 ---> Task Idle! Tick is: 3604
+Task Idle ---> Task Test1! Tick is: 3804
+Task1 give gpstrSemSync 9! Tick is: 3804
+Task Test1 ---> Task Test4! Tick is: 3804
+Task4 take gpstrSemSync 9! Tick is: 3804
+Task Test4 ---> Task Test1! Tick is: 3854
+Task1 is running ! Tick is: 3854
+Task Test1 ---> Task Idle! Tick is: 4004
+Task Idle ---> Task Test1! Tick is: 4204
+Task1 give gpstrSemSync 10! Tick is: 4204
+Task Test1 ---> Task Test4! Tick is: 4204
+Task4 take gpstrSemSync 10! Tick is: 4204
+Task Test4 ---> Task Test1! Tick is: 4254
+Task1 is running ! Tick is: 4254
+Task Test1 ---> Task Idle! Tick is: 4404
+Task Idle ---> Task Test1! Tick is: 4604
+Task1 flush gpstrSemSync 11! Tick is: 4604
+Task Test1 ---> Task Test4! Tick is: 4604
+Task4 take gpstrSemSync 11! Tick is: 4604
+Task Test4 ---> Task Test3! Tick is: 4654
+Task3 take gpstrSemSync 4! Tick is: 4654
+Task Test3 ---> Task Test2! Tick is: 4704
+Task2 take gpstrSemSync 4! Tick is: 4704
+Task Test2 ---> Task Test1! Tick is: 4754
+Task1 is running ! Tick is: 4754
+Task Test1 ---> Task Idle! Tick is: 4904
+Task Idle ---> Task Test1! Tick is: 5104
+Task1 flush gpstrSemSync 12! Tick is: 5104
+Task Test1 ---> Task Test4! Tick is: 5104
+Task4 take gpstrSemSync 12! Tick is: 5104
+Task Test4 ---> Task Test3! Tick is: 5154
+Task3 take gpstrSemSync 5! Tick is: 5154
+Task Test3 ---> Task Test2! Tick is: 5204
+Task2 take gpstrSemSync 5! Tick is: 5204
+Task Test2 ---> Task Test1! Tick is: 5254
+Task1 is running ! Tick is: 5254
+Task Test1 ---> Task Idle! Tick is: 5404
+Task Idle ---> Task Test1! Tick is: 5604
+Task1 flush gpstrSemSync 13! Tick is: 5604
+Task Test1 ---> Task Test4! Tick is: 5604
+Task4 take gpstrSemSync 13! Tick is: 5604
+Task Test4 ---> Task Test3! Tick is: 5654
+Task3 take gpstrSemSync 6! Tick is: 5654
+Task Test3 ---> Task Test2! Tick is: 5704
+Task2 take gpstrSemSync 6! Tick is: 5704
+Task Test2 ---> Task Test1! Tick is: 5754
+Task1 is running ! Tick is: 5754
+Task Test1 ---> Task Idle! Tick is: 5904
+Task Idle ---> Task Test1! Tick is: 6104
+Task1 flush gpstrSemSync 14! Tick is: 6104
+Task Test1 ---> Task Test4! Tick is: 6104
+Task4 take gpstrSemSync 14! Tick is: 6104
+Task Test4 ---> Task Test3! Tick is: 6154
+Task3 take gpstrSemSync 7! Tick is: 6154
+Task Test3 ---> Task Test2! Tick is: 6204
+Task2 take gpstrSemSync 7! Tick is: 6204
+Task Test2 ---> Task Test1! Tick is: 6254
+Task1 is running ! Tick is: 6254
+Task Test1 ---> Task Idle! Tick is: 6404
+Task Idle ---> Task Test1! Tick is: 6604
+Task1 flush gpstrSemSync 15! Tick is: 6604
+Task Test1 ---> Task Test4! Tick is: 6604
+Task4 take gpstrSemSync 15! Tick is: 6604
+Task Test4 ---> Task Test3! Tick is: 6654
+Task3 take gpstrSemSync 8! Tick is: 6654
+Task Test3 ---> Task Test2! Tick is: 6704
+Task2 take gpstrSemSync 8! Tick is: 6704
+Task Test2 ---> Task Test1! Tick is: 6754
+Task1 is running ! Tick is: 6754
+Task Test1 ---> Task Idle! Tick is: 6904
+Task Idle ---> Task Test1! Tick is: 7104
+Task1 delete gpstrSemSync 16! Tick is: 7104
+Task Test1 ---> Task Test4! Tick is: 7104
+Task4 gpstrSemSync deleted! Tick is: 7104
+Task Test4 is deleted! Tick is: 7104
+Task NULL ---> Task Test3! Tick is: 7104
+Task3 gpstrSemSync deleted! Tick is: 7104
+Task Test3 is deleted! Tick is: 7104
+Task NULL ---> Task Test2! Tick is: 7104
+Task2 gpstrSemSync deleted! Tick is: 7104
+Task Test2 is deleted! Tick is: 7104
+Task NULL ---> Task Test1! Tick is: 7104
+Task1 is running ! Tick is: 7104
+Task Test1 ---> Task Idle! Tick is: 7254
+Task Idle ---> Task Test1! Tick is: 7454
+Task1 is running ! Tick is: 7454
+Task Test1 ---> Task Idle! Tick is: 7604
+Task Idle ---> Task Test1! Tick is: 7804
+Task1 is running ! Tick is: 7804
+Task Test1 ---> Task Idle! Tick is: 7954
+Task Idle ---> Task Test1! Tick is: 8154
+Task1 is running ! Tick is: 8154
+Task Test1 ---> Task Idle! Tick is: 8304
+Task Idle ---> Task Test1! Tick is: 8504
+Task1 is running ! Tick is: 8504
+Task Test1 ---> Task Idle! Tick is: 8654

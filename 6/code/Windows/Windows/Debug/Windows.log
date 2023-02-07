@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014-2-14 20:10:59。
+     1>项目“E:\workdir\8.20140214\Windows\Windows\Windows.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Windows.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Windows.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Windows.exe.embed.manifest.res" Debug\Windows_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workdir\8.20140214\Windows\Debug\Windows.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Windows.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\workdir\8.20140214\Windows\Debug\Windows.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workdir\8.20140214\Windows\Debug\Windows.lib" /MACHINE:X86 Debug\Windows.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Windows.exe.embed.manifest" /manifest Debug\Windows.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Windows.vcxproj -> E:\workdir\8.20140214\Windows\Debug\Windows.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Windows.unsuccessfulbuild”。
+         正在对“Debug\Windows.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\workdir\8.20140214\Windows\Windows\Windows.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.32

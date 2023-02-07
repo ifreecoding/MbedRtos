@@ -1,0 +1,359 @@
+
+Task Test1 is created! Tick is: 4
+Task Test2 is created! Tick is: 4
+Task Test3 is created! Tick is: 4
+Task SrlPrt is created! Tick is: 4
+Task LcdPrt is created! Tick is: 4
+Task Root is deleted! Tick is: 4
+Task NULL ---> Task Test3! Tick is: 4
+Task3 stack remain 864 bytes, Tick is: 4
+Task Test3 ---> Task Test2! Tick is: 54
+Task2 stack remain 864 bytes, Tick is: 54
+Task Test2 ---> Task Test1! Tick is: 104
+Task1 stack remain 864 bytes, Tick is: 104
+Task Test1 ---> Task Idle! Tick is: 154
+Task Idle ---> Task Test3! Tick is: 254
+Task3 stack remain 604 bytes, Tick is: 254
+Task Test3 ---> Task Test2! Tick is: 304
+Task2 stack remain 604 bytes, Tick is: 304
+Task Test2 ---> Task Test1! Tick is: 354
+Task1 stack remain 604 bytes, Tick is: 354
+Task Test1 ---> Task Idle! Tick is: 404
+Task Idle ---> Task Test3! Tick is: 504
+Task3 stack remain 604 bytes, Tick is: 504
+Task Test3 ---> Task Test2! Tick is: 554
+Task2 stack remain 604 bytes, Tick is: 554
+Task Test2 ---> Task Test1! Tick is: 604
+Task1 stack remain 604 bytes, Tick is: 604
+Task Test1 ---> Task Idle! Tick is: 654
+Task Idle ---> Task Test3! Tick is: 754
+Task3 stack remain 604 bytes, Tick is: 754
+Task Test3 ---> Task Test2! Tick is: 804
+Task2 stack remain 604 bytes, Tick is: 804
+Task Test2 ---> Task Test1! Tick is: 854
+Task1 stack remain 604 bytes, Tick is: 854
+Task Test1 ---> Task Idle! Tick is: 904
+Task Idle ---> Task Test3! Tick is: 1004
+Task3 stack remain 604 bytes, Tick is: 1004
+Task3 1 add to 60 value is 1830, Tick is: 1054
+Task3 1 add to 80 value is 3240, Tick is: 1054
+Task3 1 add to 40 value is 820, Tick is: 1054
+Task Test3 ---> Task Test2! Tick is: 1054
+Task2 stack remain 604 bytes, Tick is: 1054
+Task2 1 add to 80 value is 3240, Tick is: 1104
+Task Test2 ---> Task Test1! Tick is: 1104
+Task1 stack remain 604 bytes, Tick is: 1104
+Task1 1 add to 40 value is 820, Tick is: 1154
+Task Test1 ---> Task Idle! Tick is: 1154
+Task Idle ---> Task Test3! Tick is: 1254
+Task3 stack remain 256 bytes, Tick is: 1254
+Task3 1 add to 60 value is 1830, Tick is: 1304
+Task3 1 add to 80 value is 3240, Tick is: 1304
+Task3 1 add to 40 value is 820, Tick is: 1304
+Task Test3 ---> Task Test2! Tick is: 1304
+Task2 stack remain 256 bytes, Tick is: 1304
+Task2 1 add to 80 value is 3240, Tick is: 1354
+Task Test2 ---> Task Test1! Tick is: 1354
+Task1 stack remain 576 bytes, Tick is: 1354
+Task1 1 add to 40 value is 820, Tick is: 1404
+Task Test1 ---> Task Idle! Tick is: 1404
+Task Idle ---> Task Test3! Tick is: 1504
+Task3 stack remain 256 bytes, Tick is: 1504
+Task3 1 add to 60 value is 1830, Tick is: 1554
+Task3 1 add to 80 value is 3240, Tick is: 1554
+Task3 1 add to 40 value is 820, Tick is: 1554
+Task Test3 ---> Task Test2! Tick is: 1554
+Task2 stack remain 256 bytes, Tick is: 1554
+Task2 1 add to 80 value is 3240, Tick is: 1604
+Task Test2 ---> Task Test1! Tick is: 1604
+Task1 stack remain 576 bytes, Tick is: 1604
+Task1 1 add to 40 value is 820, Tick is: 1654
+Task Test1 ---> Task Idle! Tick is: 1654
+Task Idle ---> Task Test3! Tick is: 1754
+Task3 stack remain 256 bytes, Tick is: 1754
+Task3 1 add to 60 value is 1830, Tick is: 1804
+Task3 1 add to 80 value is 3240, Tick is: 1804
+Task3 1 add to 40 value is 820, Tick is: 1804
+Task Test3 ---> Task Test2! Tick is: 1804
+Task2 stack remain 256 bytes, Tick is: 1804
+Task2 1 add to 80 value is 3240, Tick is: 1854
+Task Test2 ---> Task Test1! Tick is: 1854
+Task1 stack remain 576 bytes, Tick is: 1854
+Task1 1 add to 40 value is 820, Tick is: 1904
+Task Test1 ---> Task Idle! Tick is: 1904
+Task Idle ---> Task Test3! Tick is: 2004
+Task3 stack remain 256 bytes, Tick is: 2004
+Task3 1 add to 60 value is 1830, Tick is: 2054
+Task3 1 add to 80 value is 3240, Tick is: 2054
+Task3 1 add to 40 value is 820, Tick is: 2054
+Task Test3 ---> Task Test2! Tick is: 2054
+Task2 stack remain 256 bytes, Tick is: 2054
+Task2 1 add to 60 value is 1830, Tick is: 2104
+Task Test2 ---> Task Test1! Tick is: 2104
+Task1 stack remain 576 bytes, Tick is: 2104
+Task1 1 add to 60 value is 1830, Tick is: 2154
+Task Test1 ---> Task Idle! Tick is: 2154
+Task Idle ---> Task Test3! Tick is: 2254
+Task3 stack remain 256 bytes, Tick is: 2254
+Task3 1 add to 60 value is 1830, Tick is: 2304
+Task3 1 add to 80 value is 3240, Tick is: 2304
+Task3 1 add to 40 value is 820, Tick is: 2304
+Task Test3 ---> Task Test2! Tick is: 2304
+Task2 stack remain 256 bytes, Tick is: 2304
+Task2 1 add to 60 value is 1830, Tick is: 2354
+Task Test2 ---> Task Test1! Tick is: 2354
+Task1 stack remain 416 bytes, Tick is: 2354
+Task1 1 add to 60 value is 1830, Tick is: 2404
+Task Test1 ---> Task Idle! Tick is: 2404
+Task Idle ---> Task Test3! Tick is: 2504
+Task3 stack remain 256 bytes, Tick is: 2504
+Task3 1 add to 60 value is 1830, Tick is: 2554
+Task3 1 add to 80 value is 3240, Tick is: 2554
+Task3 1 add to 40 value is 820, Tick is: 2554
+Task Test3 ---> Task Test2! Tick is: 2554
+Task2 stack remain 256 bytes, Tick is: 2554
+Task2 1 add to 60 value is 1830, Tick is: 2604
+Task Test2 ---> Task Test1! Tick is: 2604
+Task1 stack remain 416 bytes, Tick is: 2604
+Task1 1 add to 60 value is 1830, Tick is: 2654
+Task Test1 ---> Task Idle! Tick is: 2654
+Task Idle ---> Task Test3! Tick is: 2754
+Task3 stack remain 256 bytes, Tick is: 2754
+Task3 1 add to 60 value is 1830, Tick is: 2804
+Task3 1 add to 80 value is 3240, Tick is: 2804
+Task3 1 add to 40 value is 820, Tick is: 2804
+Task Test3 ---> Task Test2! Tick is: 2804
+Task2 stack remain 256 bytes, Tick is: 2804
+Task2 1 add to 60 value is 1830, Tick is: 2854
+Task Test2 ---> Task Test1! Tick is: 2854
+Task1 stack remain 416 bytes, Tick is: 2854
+Task1 1 add to 60 value is 1830, Tick is: 2904
+Task Test1 ---> Task Idle! Tick is: 2904
+Task Idle ---> Task Test3! Tick is: 3004
+Task3 stack remain 256 bytes, Tick is: 3004
+Task3 1 add to 60 value is 1830, Tick is: 3054
+Task3 1 add to 80 value is 3240, Tick is: 3054
+Task3 1 add to 40 value is 820, Tick is: 3054
+Task Test3 ---> Task Test2! Tick is: 3054
+Task2 stack remain 256 bytes, Tick is: 3054
+Task2 1 add to 40 value is 820, Tick is: 3104
+Task Test2 ---> Task Test1! Tick is: 3104
+Task1 stack remain 416 bytes, Tick is: 3104
+Task1 1 add to 80 value is 3240, Tick is: 3154
+Task Test1 ---> Task Idle! Tick is: 3154
+Task Idle ---> Task Test3! Tick is: 3254
+Task3 stack remain 256 bytes, Tick is: 3254
+Task3 1 add to 60 value is 1830, Tick is: 3304
+Task3 1 add to 80 value is 3240, Tick is: 3304
+Task3 1 add to 40 value is 820, Tick is: 3304
+Task Test3 ---> Task Test2! Tick is: 3304
+Task2 stack remain 256 bytes, Tick is: 3304
+Task2 1 add to 40 value is 820, Tick is: 3354
+Task Test2 ---> Task Test1! Tick is: 3354
+Task1 stack remain 256 bytes, Tick is: 3354
+Task1 1 add to 80 value is 3240, Tick is: 3404
+Task Test1 ---> Task Idle! Tick is: 3404
+Task Idle ---> Task Test3! Tick is: 3504
+Task3 stack remain 256 bytes, Tick is: 3504
+Task3 1 add to 60 value is 1830, Tick is: 3554
+Task3 1 add to 80 value is 3240, Tick is: 3554
+Task3 1 add to 40 value is 820, Tick is: 3554
+Task Test3 ---> Task Test2! Tick is: 3554
+Task2 stack remain 256 bytes, Tick is: 3554
+Task2 1 add to 40 value is 820, Tick is: 3604
+Task Test2 ---> Task Test1! Tick is: 3604
+Task1 stack remain 256 bytes, Tick is: 3604
+Task1 1 add to 80 value is 3240, Tick is: 3654
+Task Test1 ---> Task Idle! Tick is: 3654
+Task Idle ---> Task Test3! Tick is: 3754
+Task3 stack remain 256 bytes, Tick is: 3754
+Task3 1 add to 60 value is 1830, Tick is: 3804
+Task3 1 add to 80 value is 3240, Tick is: 3804
+Task3 1 add to 40 value is 820, Tick is: 3804
+Task Test3 ---> Task Test2! Tick is: 3804
+Task2 stack remain 256 bytes, Tick is: 3804
+Task2 1 add to 40 value is 820, Tick is: 3854
+Task Test2 ---> Task Test1! Tick is: 3854
+Task1 stack remain 256 bytes, Tick is: 3854
+Task1 1 add to 80 value is 3240, Tick is: 3904
+Task Test1 ---> Task Idle! Tick is: 3904
+Task Idle ---> Task Test3! Tick is: 4004
+Task3 stack remain 256 bytes, Tick is: 4004
+Task3 1 add to 60 value is 1830, Tick is: 4054
+Task3 1 add to 80 value is 3240, Tick is: 4054
+Task3 1 add to 40 value is 820, Tick is: 4054
+Task Test3 ---> Task Test2! Tick is: 4054
+Task2 stack remain 256 bytes, Tick is: 4054
+Task2 1 add to 40 value is 820, Tick is: 4104
+Task Test2 ---> Task Test1! Tick is: 4104
+Task1 stack remain 256 bytes, Tick is: 4104
+Task1 1 add to 80 value is 3240, Tick is: 4154
+Task Test1 ---> Task Idle! Tick is: 4154
+Task Idle ---> Task Test3! Tick is: 4254
+Task3 stack remain 256 bytes, Tick is: 4254
+Task3 1 add to 60 value is 1830, Tick is: 4304
+Task3 1 add to 80 value is 3240, Tick is: 4304
+Task3 1 add to 40 value is 820, Tick is: 4304
+Task Test3 ---> Task Test2! Tick is: 4304
+Task2 stack remain 256 bytes, Tick is: 4304
+Task2 1 add to 40 value is 820, Tick is: 4354
+Task Test2 ---> Task Test1! Tick is: 4354
+Task1 stack remain 256 bytes, Tick is: 4354
+Task1 1 add to 80 value is 3240, Tick is: 4404
+Task Test1 ---> Task Idle! Tick is: 4404
+Task Idle ---> Task Test3! Tick is: 4504
+Task3 stack remain 256 bytes, Tick is: 4504
+Task3 1 add to 60 value is 1830, Tick is: 4554
+Task3 1 add to 80 value is 3240, Tick is: 4554
+Task3 1 add to 40 value is 820, Tick is: 4554
+Task Test3 ---> Task Test2! Tick is: 4554
+Task2 stack remain 256 bytes, Tick is: 4554
+Task2 1 add to 40 value is 820, Tick is: 4604
+Task Test2 ---> Task Test1! Tick is: 4604
+Task1 stack remain 256 bytes, Tick is: 4604
+Task1 1 add to 80 value is 3240, Tick is: 4654
+Task Test1 ---> Task Idle! Tick is: 4654
+Task Idle ---> Task Test3! Tick is: 4754
+Task3 stack remain 256 bytes, Tick is: 4754
+Task3 1 add to 60 value is 1830, Tick is: 4804
+Task3 1 add to 80 value is 3240, Tick is: 4804
+Task3 1 add to 40 value is 820, Tick is: 4804
+Task Test3 ---> Task Test2! Tick is: 4804
+Task2 stack remain 256 bytes, Tick is: 4804
+Task2 1 add to 40 value is 820, Tick is: 4854
+Task Test2 ---> Task Test1! Tick is: 4854
+Task1 stack remain 256 bytes, Tick is: 4854
+Task1 1 add to 80 value is 3240, Tick is: 4904
+Task Test1 ---> Task Idle! Tick is: 4904
+Task Idle ---> Task Test3! Tick is: 5004
+Task3 stack remain 256 bytes, Tick is: 5004
+Task3 1 add to 60 value is 1830, Tick is: 5054
+Task3 1 add to 80 value is 3240, Tick is: 5054
+Task3 1 add to 40 value is 820, Tick is: 5054
+Task Test3 ---> Task Test2! Tick is: 5054
+Task2 stack remain 256 bytes, Tick is: 5054
+Task2 1 add to 40 value is 820, Tick is: 5104
+Task Test2 ---> Task Test1! Tick is: 5104
+Task1 stack remain 256 bytes, Tick is: 5104
+Task1 1 add to 80 value is 3240, Tick is: 5154
+Task Test1 ---> Task Idle! Tick is: 5154
+Task Idle ---> Task Test3! Tick is: 5254
+Task3 stack remain 256 bytes, Tick is: 5254
+Task3 1 add to 60 value is 1830, Tick is: 5304
+Task3 1 add to 80 value is 3240, Tick is: 5304
+Task3 1 add to 40 value is 820, Tick is: 5304
+Task Test3 ---> Task Test2! Tick is: 5304
+Task2 stack remain 256 bytes, Tick is: 5304
+Task2 1 add to 40 value is 820, Tick is: 5354
+Task Test2 ---> Task Test1! Tick is: 5354
+Task1 stack remain 256 bytes, Tick is: 5354
+Task1 1 add to 80 value is 3240, Tick is: 5404
+Task Test1 ---> Task Idle! Tick is: 5404
+Task Idle ---> Task Test3! Tick is: 5504
+Task3 stack remain 256 bytes, Tick is: 5504
+Task3 1 add to 60 value is 1830, Tick is: 5554
+Task3 1 add to 80 value is 3240, Tick is: 5554
+Task3 1 add to 40 value is 820, Tick is: 5554
+Task Test3 ---> Task Test2! Tick is: 5554
+Task2 stack remain 256 bytes, Tick is: 5554
+Task2 1 add to 40 value is 820, Tick is: 5604
+Task Test2 ---> Task Test1! Tick is: 5604
+Task1 stack remain 256 bytes, Tick is: 5604
+Task1 1 add to 80 value is 3240, Tick is: 5654
+Task Test1 ---> Task Idle! Tick is: 5654
+Task Idle ---> Task Test3! Tick is: 5754
+Task3 stack remain 256 bytes, Tick is: 5754
+Task3 1 add to 60 value is 1830, Tick is: 5804
+Task3 1 add to 80 value is 3240, Tick is: 5804
+Task3 1 add to 40 value is 820, Tick is: 5804
+Task Test3 ---> Task Test2! Tick is: 5804
+Task2 stack remain 256 bytes, Tick is: 5804
+Task2 1 add to 40 value is 820, Tick is: 5854
+Task Test2 ---> Task Test1! Tick is: 5854
+Task1 stack remain 256 bytes, Tick is: 5854
+Task1 1 add to 80 value is 3240, Tick is: 5904
+Task Test1 ---> Task Idle! Tick is: 5904
+Task Idle ---> Task Test3! Tick is: 6004
+Task3 stack remain 256 bytes, Tick is: 6004
+Task3 1 add to 60 value is 1830, Tick is: 6054
+Task3 1 add to 80 value is 3240, Tick is: 6054
+Task3 1 add to 40 value is 820, Tick is: 6054
+Task Test3 ---> Task Test2! Tick is: 6054
+Task2 stack remain 256 bytes, Tick is: 6054
+Task2 1 add to 40 value is 820, Tick is: 6104
+Task Test2 ---> Task Test1! Tick is: 6104
+Task1 stack remain 256 bytes, Tick is: 6104
+Task1 1 add to 80 value is 3240, Tick is: 6154
+Task Test1 ---> Task Idle! Tick is: 6154
+Task Idle ---> Task Test3! Tick is: 6254
+Task3 stack remain 256 bytes, Tick is: 6254
+Task3 1 add to 60 value is 1830, Tick is: 6304
+Task3 1 add to 80 value is 3240, Tick is: 6304
+Task3 1 add to 40 value is 820, Tick is: 6304
+Task Test3 ---> Task Test2! Tick is: 6304
+Task2 stack remain 256 bytes, Tick is: 6304
+Task2 1 add to 40 value is 820, Tick is: 6354
+Task Test2 ---> Task Test1! Tick is: 6354
+Task1 stack remain 256 bytes, Tick is: 6354
+Task1 1 add to 80 value is 3240, Tick is: 6404
+Task Test1 ---> Task Idle! Tick is: 6404
+Task Idle ---> Task Test3! Tick is: 6504
+Task3 stack remain 256 bytes, Tick is: 6504
+Task3 1 add to 60 value is 1830, Tick is: 6554
+Task3 1 add to 80 value is 3240, Tick is: 6554
+Task3 1 add to 40 value is 820, Tick is: 6554
+Task Test3 ---> Task Test2! Tick is: 6554
+Task2 stack remain 256 bytes, Tick is: 6554
+Task2 1 add to 40 value is 820, Tick is: 6604
+Task Test2 ---> Task Test1! Tick is: 6604
+Task1 stack remain 256 bytes, Tick is: 6604
+Task1 1 add to 80 value is 3240, Tick is: 6654
+Task Test1 ---> Task Idle! Tick is: 6654
+Task Idle ---> Task Test3! Tick is: 6754
+Task3 stack remain 256 bytes, Tick is: 6754
+Task3 1 add to 60 value is 1830, Tick is: 6804
+Task3 1 add to 80 value is 3240, Tick is: 6804
+Task3 1 add to 40 value is 820, Tick is: 6804
+Task Test3 ---> Task Test2! Tick is: 6804
+Task2 stack remain 256 bytes, Tick is: 6804
+Task2 1 add to 40 value is 820, Tick is: 6854
+Task Test2 ---> Task Test1! Tick is: 6854
+Task1 stack remain 256 bytes, Tick is: 6854
+Task1 1 add to 80 value is 3240, Tick is: 6904
+Task Test1 ---> Task Idle! Tick is: 6904
+Task Idle ---> Task Test3! Tick is: 7004
+Task3 stack remain 256 bytes, Tick is: 7004
+Task3 1 add to 60 value is 1830, Tick is: 7054
+Task3 1 add to 80 value is 3240, Tick is: 7054
+Task3 1 add to 40 value is 820, Tick is: 7054
+Task Test3 ---> Task Test2! Tick is: 7054
+Task2 stack remain 256 bytes, Tick is: 7054
+Task2 1 add to 40 value is 820, Tick is: 7104
+Task Test2 ---> Task Test1! Tick is: 7104
+Task1 stack remain 256 bytes, Tick is: 7104
+Task1 1 add to 80 value is 3240, Tick is: 7154
+Task Test1 ---> Task Idle! Tick is: 7154
+Task Idle ---> Task Test3! Tick is: 7254
+Task3 stack remain 256 bytes, Tick is: 7254
+Task3 1 add to 60 value is 1830, Tick is: 7304
+Task3 1 add to 80 value is 3240, Tick is: 7304
+Task3 1 add to 40 value is 820, Tick is: 7304
+Task Test3 ---> Task Test2! Tick is: 7304
+Task2 stack remain 256 bytes, Tick is: 7304
+Task2 1 add to 40 value is 820, Tick is: 7354
+Task Test2 ---> Task Test1! Tick is: 7354
+Task1 stack remain 256 bytes, Tick is: 7354
+Task1 1 add to 80 value is 3240, Tick is: 7404
+Task Test1 ---> Task Idle! Tick is: 7404
+Task Idle ---> Task Test3! Tick is: 7504
+Task3 stack remain 256 bytes, Tick is: 7504
+Task3 1 add to 60 value is 1830, Tick is: 7554
+Task3 1 add to 80 value is 3240, Tick is: 7554
+Task3 1 add to 40 value is 820, Tick is: 7554
+Task Test3 ---> Task Test2! Tick is: 7554
+Task2 stack remain 256 bytes, Tick is: 7554
+Task2 1 add to 40 value is 820, Tick is: 7604
+Task Test2 ---> Task Test1! Tick is: 7604
+Task1 stack remain 256 bytes, Tick is: 7604
+Task1 1 add to 80 value is 3240, Tick is: 7654
+Task Test1 ---> Task Idle! Tick is: 7654

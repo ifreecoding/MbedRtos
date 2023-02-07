@@ -1,0 +1,6 @@
+Dependencies for Project 'wanlix', Target 'OS_Wanlix': (DO NOT MODIFY !)
+F (../wanlix/wlx_core_a.asm)(0x538D7335)(--cpu Cortex-M3 --pd "__EVAL SETA 1" --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list "..\outfile\wlx_core_a.lst" --xref -o "..\outfile\wlx_core_a.o" --depend "..\outfile\wlx_core_a.d")
+F (../wanlix/wlx_core_c.c)(0x538C3367)(-c --cpu Cortex-M3 -D__EVAL -O2 --apcs=interwork -I..\wanlix -I..\srccode -I..\lib\CMSIS\CM3\CoreSupport -I..\lib\STM32F10x_StdPeriph_Driver\src -I..\lib\STM32F10x_StdPeriph_Driver\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o "..\outfile\wlx_core_c.o" --omf_browse "..\outfile\wlx_core_c.crf" --depend "..\outfile\wlx_core_c.d")
+I (../wanlix/wlx_core_c.h)(0x5271D09A)
+I (../wanlix/wanlix.h)(0x538C334D)
+F (..\others\หตร๗.txt)(0x5605EBF4)()
